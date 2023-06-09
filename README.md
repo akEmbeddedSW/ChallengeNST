@@ -86,4 +86,53 @@ Your seat wasn't at the very front or back, though the seats with IDs +1 and -1 
 * There are 859 lines in the input.txt. I wasn't told that the data is clean. So I need to be aware of any duplicate instances.
 * It is a completely full flight. So maximum ID - minimum Id + 1 = the number of available seats.
 
-* 
+
+## Installation
+
+### Prepare the environment for running the code
+
+### Pycharm IDE
+- [Download and install PyCharm](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+
+- Create a new project
+- Install 'pandas' using package tab
+- clone the repository into the project directory
+```bash
+  cd your-project
+  git clone https://github.com/akEmbeddedSW/ChallengeNST.git
+```
+- Make sure to copy all the cloned files to the project directory
+```bash
+  cd ChallengeNST
+  mv * ../
+```
+- Run your project
+
+### Miniconda
+- Make a directory
+```bash  
+  mkdir your-project
+  cd your-project
+```
+- Create a virtual environment
+```bash  
+  conda create -n name_of_my_env python
+  activate name_of_my_env
+```
+- Install 'pandas'
+```bash  
+  conda install pandas
+```
+- clone the repository into the project directory
+```bash
+  git clone https://github.com/akEmbeddedSW/ChallengeNST.git
+  cd ChallengeNST
+```
+- Run your project
+```bash  
+  python main.py
+```
+## Authors
+
+- [@akEmbeddedSW](https://www.github.com/akEmbeddedSW)
+
